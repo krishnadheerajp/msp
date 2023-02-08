@@ -6,8 +6,18 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body>
+<body onload="getLoader()">
   <app-root></app-root>
 </body>
+<script>
+  function getLoader(){
+    let a=document.getElementById("loading").style.display="none";
+  }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration:1500,easing:'ease'});
+</script>
 </html>
