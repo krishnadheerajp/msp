@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { LatMovComponent } from './lat-mov/lat-mov.component';
 import { AllMovComponent } from './all-mov/all-mov.component';
 import { BannerComponent } from './banner/banner.component';
+import { SelMovComponent } from './sel-mov/sel-mov.component';
+import { SearchMovComponent } from './search-mov/search-mov.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { BannerComponent } from './banner/banner.component';
     FooterComponent,
     LatMovComponent,
     AllMovComponent,
-    BannerComponent
+    BannerComponent,
+    SelMovComponent,
+    SearchMovComponent
   ],
   imports: [
     BrowserModule,
